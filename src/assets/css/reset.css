@@ -26,7 +26,17 @@ body {
   font-size: 12px;
   font-family: 'Microsoft Yahei', '微软雅黑', '宋体', arial, 'Hiragino Sans GB', Tahoma, Arial, Helvetica;
 }
-
+.refreshImg {
+  text-align: center;
+}
+.refreshImg img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 30px;
+  }
+.van-pull-refresh,.van-pull-refresh__track{
+  height: 100%;
+}
 img {
   display: block;
   width: 100%;
